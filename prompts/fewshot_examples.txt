@@ -1,0 +1,15 @@
+Example 1:
+Note: Social history: 1 pack per day for 30 years, quit in 2018.
+Output: {"smoking_status": "former", "pack_years": 30, "quit_year": 2018, "quit_year_ago": null}
+
+Example 2:
+Note: Patient denies any history of tobacco use.
+Output: {"smoking_status": "never", "pack_years": null, "quit_year": null, "quit_year_ago": null}
+
+Example 3:
+Note: Social hx noncontributory.
+Output: {"smoking_status": "unknown", "pack_years": null, "quit_year": null, "quit_year_ago": null}
+
+Example 4:
+Note: Patients stopped smoking 5 years ago
+Output: {"smoking_status": "former", "pack_years": null, "quit_year": null, "quit_year_ago": 5}
